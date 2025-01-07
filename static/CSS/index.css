@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 2vw;
+    background-color: beige;
+    border-radius: 10px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.description{
+    text-align: center;
+}
+.el{
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    margin: 5vw;
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 500px;
+    height: 300px;
+}
+
+.green{
+    background-color: greenyellow;
+}
+
+.yellow{
+    background-color: yellow;
+}
